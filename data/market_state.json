@@ -56,3 +56,4 @@
 {"timestamp": "2026-06-03 05:10:24", "symbol": "ETHUSDT", "price": 1849.84, "request_latency_seconds": 0.6534}
 {"timestamp": "2026-06-03 05:11:01", "symbol": "ETHUSDT", "price": 1847.81, "request_latency_seconds": 1.0464}
 {"timestamp": "2026-06-03 05:25:27", "symbol": "ETHUSDT", "price": 1849.86, "request_latency_seconds": 0.6196}
+{"timestamp": "2026-06-03 05:26:04", "symbol": "ETHUSDT", "price": 1847.79, "request_latency_seconds": 0.5705}
