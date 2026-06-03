@@ -1,0 +1,21 @@
+{
+  "name": "sntnl-architecture",
+  "version": "1.0.0",
+  "description": "This document outlines the formal mathematical foundation for the **Sentinel Protocol**, a decentralized framework designed to resolve information asynchrony and predatory inversion in cross-chain environments. By modeling inter-chain latency as delay differential equations (DDEs), we establish a mathematically sound architecture for high-performance distributed computing.",
+  "main": "agent_sync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sntnl-void: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@github.com/sntnl-void/sntnl-architecture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sntnl-void/sntnl-architecture/issues"
+  },
+  "homepage": "https://github.com/sntnl-void/sntnl-architecture#readme"
+}
