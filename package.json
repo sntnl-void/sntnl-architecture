@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/sntnl-void/sntnl-architecture/issues"
   },
-  "homepage": "https://github.com/sntnl-void/sntnl-architecture#readme"
+  "homepage": "https://github.com/sntnl-void/sntnl-architecture#readme",
+  "dependencies": {
+    "@notionhq/client": "^5.22.0"
+  }
 }
