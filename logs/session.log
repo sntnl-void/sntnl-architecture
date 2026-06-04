@@ -8386,3 +8386,39 @@ error: failed to push some refs to 'https://github.com/sntnl-void/sntnl-architec
 SUCCESS: ETHUSDT at 1778.39 (Latency: 1.7935s)
 [2026-06-04 18:43:59] [EXEC] Acquisition terminée.
 [2026-06-04 18:43:59] [SYNC] Synchronisation des données vers sntnl-void...
+remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— GitHub Personal Access Token ——————————————————————        
+remote:        locations:        
+remote:          - commit: 3dd6d92e7bb63caa511b76cb92d3a0b249069023        
+remote:            path: package.json:11        
+remote:          - commit: 7b584f3afcf32b48b1a87749253b806d47b6b414        
+remote:            path: package.json:11        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/sntnl-void/sntnl-architecture/security/secret-scanning/unblock-secret/3EdQx85ZMkHzb22R9fkgynvJxrq        
+remote:             
+remote: 
+remote: 
+To https://github.com/sntnl-void/sntnl-architecture.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/sntnl-void/sntnl-architecture.git'
+[2026-06-04 18:44:06] [SUCCESS] Nouvelles données propulsées sur GitHub.
+[2026-06-04 18:44:06] [DAEMON] Mise en veille pour 900 secondes...
+[2026-06-04 18:53:54] [DAEMON] Déclenchement du moteur Sentinel...
+[2026-06-04 18:53:54] [INFO] Initialisation du cycle Sentinel...
+[2026-06-04 18:53:54] [EXEC] Lancement du Knowledge Scraper (Python)...
+SUCCESS: ETHUSDT at 1775.12 (Latency: 1.8609s)
+[2026-06-04 18:53:57] [EXEC] Acquisition terminée.
+[2026-06-04 18:53:57] [SYNC] Synchronisation des données vers sntnl-void...
